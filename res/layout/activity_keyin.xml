@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundv"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="290dp"
+      android:orientation="vertical"
+      android:paddingLeft="200dp"
+      android:gravity="center_horizontal">              
+        <TableRow 
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"              
+                android:paddingTop="21dp" 
+                android:textStyle="bold" 
+                android:textColor="#000"               
+                android:layout_gravity="right"
+                android:text="@string/card_no"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/card_no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="21dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#e6b630" 
+                android:gravity="left"
+                android:inputType="text"               
+                android:textSize="40sp" />
+        </TableRow>
+        <TableRow
+               android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"               
+                android:paddingTop="87dp" 
+                android:textStyle="bold" 
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/consume_type"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/consume_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="87dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#e6b630"
+                android:gravity="left"
+                android:inputType="text"
+             
+                android:textSize="40sp" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="88dp" 
+                android:textStyle="bold" 
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/keyin_time"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/keyin_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="88dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#e6b630"
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="40sp" />
+        </TableRow>
+        <TableRow
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="88dp" 
+                android:textStyle="bold" 
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/hint"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/keyinhint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="88dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#e6b630"
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="40sp" />
+        </TableRow>
+    </TableLayout>
+    <!--  <View    
+          android:layout_width="match_parent"
+          android:paddingTop="150dp"
+          android:layout_height="2dp"
+          android:background="#40e32f"/>
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:paddingLeft="240dp"
+         android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="187dp" 
+                android:textStyle="bold" 
+                android:textColor="#DC143C"
+                android:layout_gravity="right"
+                android:text="@string/hint"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/keyinhint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="187dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#DC143C"
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="40sp" />
+
+
+     </LinearLayout>  -->
+    </LinearLayout>
+
+

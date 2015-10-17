@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundv"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+  <TableLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:orientation="vertical"
+      android:gravity="center_horizontal">
+        
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="30dp" 
+                android:textStyle="bold" 
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/card_no"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/card_no"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="30dp" 
+                android:textStyle="bold|italic"
+                android:textColor="#000"
+                android:gravity="left"
+                android:inputType="text"
+             
+                android:textSize="35sp" />
+        </TableRow>
+        
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="32dp" 
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/consume_type"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/consume_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="32dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#000"
+                android:gravity="left"
+                android:inputType="text"           
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp" 
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/keyout_time"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/keyout_time"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp"
+                
+                android:textStyle="bold|italic" 
+                android:textColor="#000" 
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="35sp" />
+        </TableRow> 
+         <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp" 
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/time_diff"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/time_diff"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp"                
+                android:textStyle="bold|italic" 
+                android:textColor="#000" 
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="35sp" />
+        </TableRow>                 
+         <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp" 
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="right"
+                android:text="@string/hint"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/outhint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="36dp"
+                android:textStyle="bold|italic" 
+                android:textColor="#000" 
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="35sp" />
+        </TableRow>
+    </TableLayout>
+    
+ <!--  <View    
+     android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#40e32f"/>
+    <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:paddingLeft="245dp"
+         android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:paddingTop="160dp" 
+                android:textStyle="bold" 
+                android:textColor="#DC143C"
+                android:layout_gravity="right"
+                android:text="@string/hint"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/keyouthint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="160dp" 
+                android:textStyle="bold|italic" 
+                android:textColor="#DC143C"
+                android:gravity="left"
+                android:inputType="text"
+                android:textSize="40sp" />
+     </LinearLayout>  -->
+    </LinearLayout>

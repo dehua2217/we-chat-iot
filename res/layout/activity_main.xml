@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:tools="http://schemas.android.com/tools"  
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+     <!-- android:layout_weight="10" 失效了【最外层LinearLayout的布局高度是内容包裹】 -->
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_weight="10"
+         android:orientation="horizontal" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_dtcom"
+             android:textSize="18sp" />
+          <Spinner
+                    android:id="@+id/dtcom_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="60dp" >
+                </Spinner>
+     </LinearLayout>    
+      <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_weight="10"
+         android:orientation="horizontal" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_kzcom"
+             android:textSize="18sp" />
+          <Spinner
+                    android:id="@+id/kzcom_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="60dp" >
+                </Spinner>
+     </LinearLayout>   
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_weight="10"
+         android:orientation="horizontal" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_outifchecked"
+             android:textSize="18sp" />
+          <Spinner
+                    android:id="@+id/outifchecked_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="60dp" >
+                </Spinner>
+     </LinearLayout> 
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_weight="10"
+         android:orientation="horizontal" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_csifout"
+             android:textSize="18sp" />
+          <Spinner
+                    android:id="@+id/csifout_spinner"
+                    android:layout_width="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="60dp" >
+                </Spinner>
+     </LinearLayout>   
+     <RadioGroup android:id="@+id/radioGroup1" android:contentDescription="@string/inorout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+     <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radiowaitin" android:text="@string/rb_waitin" android:checked="true"></RadioButton>
+     <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radiowaitout" android:text="@string/rb_waitout"></RadioButton>  
+     </RadioGroup>  
+     <RadioGroup android:id="@+id/radioGroup2" android:contentDescription="@string/inorout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+     <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radioleftopen" android:text="@string/rb_leftopen" android:checked="true"></RadioButton>
+     <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/radiorightopen" android:text="@string/rb_rightopen"></RadioButton>  
+     </RadioGroup>   
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="15dp"
+         android:layout_marginTop="10dp"
+         android:layout_weight="10"
+         android:orientation="horizontal" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/txt_ip"
+             android:textSize="18sp" />
+         <EditText
+             android:id="@+id/edt_ip"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="5dp"
+             android:inputType="textPersonName"
+             android:padding="7dp"
+             android:text="" />
+     </LinearLayout>
+     <Button
+         android:id="@+id/save"
+
+         android:layout_width="fill_parent"
+
+         android:layout_height="wrap_content"
+         android:background="@drawable/main_set_selector"
+         android:layout_marginLeft="59dp"
+
+         android:layout_marginRight="5dp"
+
+         android:text="@string/save_btn" />
+</LinearLayout> 

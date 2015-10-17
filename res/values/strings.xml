@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	  
+    <string name="app_name">Android版闸机软件</string>
+    <string name="action_settings">Settings</string>
+    <string name="serialClose">\n关闭\n</string>
+    <string name="serialOpen">\n打开\n</string>
+    <string name="togBtnHEX">\nHEX\n</string>
+    <string name="togBtnASCII">\nASCII\n</string>
+    <string name="togBtnReceive">\n接受\n</string>
+    <string name="togBtnStopReceive">\n停止\n</string>
+    <string name="clearButton">\n清空\n</string>
+    <string name="sendButton">\n发送\n</string>
+	<string name="per100ms">Per100ms</string>
+	<string name="per500ms">Per500ms</string>
+	<string name="per1000ms">Per1s</string>
+	<string name="serial">串口：</string>
+	<string name="baudrate">波特率：</string>
+	<string name="databits">数据位：</string>
+	<string name="stopbits">停止位：</string>
+	<string name="paritybits">校验位：</string>
+	<string name="acceptdata">接受数据</string>
+	<string name="senddata">发送数据</string>
+	<string name="tv_keyInsiderNo">钥匙内码</string>
+	<string name="keyin_time">入场时间:</string>
+	<string name="hint">通行状态:</string>
+	<string name="keyout_time">出场时间:</string>
+	<string name="keyouthint">状态提示:</string>
+	<string name="txt_ip">IP地址</string>
+	<string name="txt_dtcom">读头串口</string>
+	<string name="txt_kzcom">开闸串口</string>
+	<string name="rb_waitin">进场闸机</string>
+	<string name="rb_waitout">出场闸机</string>
+	<string name="rb_leftopen">左向开闸</string>
+	<string name="rb_rightopen">右向开闸</string>
+	<string name="inorout">进出场闸机？</string>
+	<string name="save_btn">配置保存</string>
+	<string name="customerno">客户卡号:</string>
+	<string name="keyno">手牌号码:</string>
+	<string name="card_no">卡&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;号:</string>
+	<string name="time_diff">历&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;时:</string>
+	<string name="consume_type">门票类型:</string>
+	<string name="timediff">消费历时:</string>
+	<string name="txt_outifchecked">出场结账</string>
+	<string name="txt_csifout">超时出场</string>
+	<string name="inputwarn">请输入有效HEX字符组合（"0-9","A-F","a-f"）！</string>
+	<!--  
+	<string name="app_name">Android Serial Debugging Assistant v2</string>
+    <string name="action_settings">Settings</string>
+    <string name="serialClose">\nClose\n</string>
+    <string name="serialOpen">\nOpen\n</string>
+    <string name="togBtnHEX">\nHEX\n</string>
+    <string name="togBtnASCII">\nASCII\n</string>
+    <string name="togBtnReceive">\nReceive\n</string>
+    <string name="togBtnStopReceive">\nStopReceive\n</string>
+    <string name="clearButton">\nClear\n</string>
+    <string name="sendButton">\nSend\n</string>
+	<string name="per100ms">Per100ms</string>
+	<string name="per500ms">Per500ms</string>
+	<string name="per1000ms">Per1s</string>
+	<string name="serial">Port：</string>
+	<string name="baudrate">Baudrate：</string>
+	<string name="databits">Data Bit：</string>
+	<string name="stopbits">Stop Bit：</string>
+	<string name="paritybits">Parity Bit：</string>
+	<string name="acceptdata">Accept Data</string>
+	<string name="senddata">Send Data</string>
+	<string name="inputwarn">Please enter a valid HEX character combinations（"0-9","A-F","a-f"）！</string>
+	-->
+	
+
+</resources>

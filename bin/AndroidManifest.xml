@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dt.wait.activity"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+    <uses-permission android:name="android.permission.INTERNET" /> //访问网络的权限
+
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.dt.wait.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dt.wait.activity.KeyInActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.dt.wait.activity.KeyOutActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.dt.wait.activity.LogoActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.dt.wait.activity.LogoUseKeyAndCardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.dt.wait.activity.LogoUseCardActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+        </activity>
+        
+       <receiver android:name="com.dt.wait.broadcast.BootBroadcastReceiver">
+       <intent-filter>
+       <action android:name="android.intent.action.BOOT_COMPLETED" />
+       <category android:name="android.intent.category.HOME" />
+       </intent-filter>
+</receiver>
+ 
+<receiver android:exported="false"
+         android:name="com.dt.wait.broadcast.KeyInBroadcastReceiver">
+       <intent-filter>
+       <action android:name="com.dt.wait.keyin" />
+       </intent-filter>
+</receiver>
+ 
+    </application>
+
+</manifest>
